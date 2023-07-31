@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JabeezyMusic.com</title>
+    <style>
+        *
+        {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;  
+}
+
+.hero {
+ width: 100%;
+ height: 100vh;
+ background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0));   
+position: relative;
+padding: 0.5%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+    width: 80px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fffdfd;
+    font-size: 17px;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    color: rgb(255, 255, 255);
+    font-family: 600;
+    transition: 0.5s;
+}
+.content h1 :hover{
+ -webkit-text-stroke: 2px rgb(0, 0, 0)
+ color transparent;
+}
+.content a{
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(255, 254, 254);
+  font-size: 24px;
+  border: 5px solid rgb(246, 246, 246);
+  padding: 14px 30px;
+  border-radius: 50px;
+  margin-top: 20px;
+    
+}
+
+.back-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio: 16/9){
+ .back-video
+    width: 100%;
+    height auto
+}
+
+@media (max-aspect-ratio: 16/9){
+.back-video
+    width: auto;
+    height: 100%;
+}
+
+body{
+    background-color: #000000;
+    color: #000000;
+  padding: 30px;
+  font-family: cursive;
+  margin: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="hero">
+<nav>
+
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="Downloads/pbgvideo.mp4" type="video/mp4">
+    </video>
+
+    <img src="Downloads/logo 1.png" class="logo">
+    
+</nav>
+<div class="content">
+  
+    <div style = "position: fixed ; left:5px; top:50px; background-color:rgba(1, 0, 0, 0);">
+         <a href="https://youtu.be/NE5_8-WjmcI">Pressure MV</a> 
+      </div>
+      <div style = "position: fixed ; left:5px; top:150px; background-color:rgba(1, 0, 0, 0);">
+        <a href="https://intellectual-clothing-brand.creator-spring.com/">Shop</a> 
+      </div>    
+      <div style = "position: fixed ; left:5px; top:250px; background-color:rgba(1, 0, 0, 0);">
+        <a href="https://solo.to/jabeezy">Socials</a>
+      </div> 
+      <div style = "position: fixed ; left:5px; top:350px; background-color:rgba(1, 0, 0, 0);">
+        <a href="https://distrokid.com/hyperfollow/jabeezy/neon-lights">Newest Project</a>
+      </div> 
+        <div style = "position: fixed ; left:-5px; top:500px; background-color:rgba(0, 0, 0, 0);">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1pFre5yRKNdAO5UcHr1gzi?utm_source=generator" width="95%" height="310" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div style = "position:relative; left:80px; top:335px; background-color:rgb(255, 255, 255);">
+         This is the official Website of Jabeezy
+      </div>
+      <div style = "position:relative; left:80px; top:335px; background-color:rgba(255, 255, 255, 0.971);">
+        Label Jabeezy Records and Free Agent Music
+      </div>
+   </div>
+    </div>
+</body>
+</html>
